@@ -1,0 +1,20 @@
+[package]
+name = "path-matchers"
+version = "1.0.0"
+authors = ["Alexander Korolev <kilork@yandex.ru>"]
+edition = "2018"
+categories = ["development-tools::build-utils", "filesystem"]
+description = """
+A collection of path matchers.
+"""
+homepage = "https://github.com/rust-utility/path-matchers"
+keywords = []
+license = "Unlicense OR MIT"
+readme = "README.md"
+repository = "https://github.com/rust-utility/path-matchers"
+
+[features]
+default = [ "glob" ]
+
+[dependencies]
+glob = { version = "0.3", optional = true }
