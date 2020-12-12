@@ -1,6 +1,6 @@
 [package]
 name = "path-matchers"
-version = "1.0.0"
+version = "1.0.1"
 authors = ["Alexander Korolev <kilork@yandex.ru>"]
 edition = "2018"
 categories = ["development-tools::build-utils", "filesystem"]
