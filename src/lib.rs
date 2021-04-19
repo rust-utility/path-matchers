@@ -64,6 +64,7 @@ mod path_matcher_func;
 mod path_matcher_glob;
 mod path_matcher_not;
 mod path_matcher_or;
+mod path_matcher_starts_with;
 #[cfg(test)]
 mod path_matcher_true;
 
@@ -117,3 +118,4 @@ pub use path_matcher_glob::{glob, PatternError};
 pub use path_matcher_not::not;
 pub use path_matcher_or::or;
 use path_matcher_or::PathMatcherOr;
+pub use path_matcher_starts_with::starts_with;
